@@ -7,7 +7,7 @@ import (
 
 type Book struct {
 	Title  string  `json:"title"`
-	Author string  `json:"author"`
+	Author string  `json:"author"` //не обязательно, не привиредлив к регистру "AUThor" - тоже сработает, но лучше явно писать
 	Year   float64 `json:"year"`
 }
 
